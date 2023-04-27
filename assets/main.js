@@ -61,7 +61,6 @@ function Clear() {
     FlagNewNum = true;
 }
 
-
 function Negative() {
     calc.ReadOut.value =
         parseFloat(calc.ReadOut.value) * -1;
