@@ -1,0 +1,84 @@
+.body {
+    width: 310px;
+    margin: auto;
+    padding: 60px 0px 25px 15px;
+    background: rgb(242, 242, 242);
+    border-radius: 40px;
+}
+
+
+#editWide{
+    width:93%;
+    height: 60px;
+    text-align: right;
+    font-size: 70px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    background: rgb(242, 242, 242);
+    color: orange;
+    border-radius: 4px;
+    padding-right: 5px;
+    border: none;
+}
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.number {
+    border: none;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgba(200, 200, 200);
+}
+.number:hover { background: rgb(225, 225, 225); }
+.number:active { background: rgba(225, 225, 225, 0.5); }
+
+.operation_orange {
+    border: none;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    background: orange;
+    color: white;
+    text-align: center;
+    outline: none;
+}
+.operation_orange:hover { background: rgb(245, 155, 0); }
+.operation_orange:active { background: rgba(245, 155, 0, 0.5); }
+
+.operation {
+    border: none;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    margin: 10px;
+    text-align: center;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgba(200, 200, 200);
+
+}
+.operation:hover { background: rgb(225, 225, 225); }
+.operation:active { background: rgba(225, 225, 225, 0.5); }
+
+#icon {
+    background-image: url(delete.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+}
+#decimal {
+    font-weight: bold;
+    font-size: 25px;
+}
+#wide{
+    font-size: 25px;
+}
