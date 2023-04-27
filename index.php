@@ -7,7 +7,6 @@
         <input id="editWide" name="ReadOut" type="Text"
                value="0"/>
         <div class="numbers">
-
             <input class="operation" name="btnClear" type="Button"
                    value="AC" onclick="Clear()"/>
             <input class="operation" name="btnNeg" type="button"
@@ -55,9 +54,7 @@
                    type="Button" value="=" onclick="Operation('=')">
             <input class="operation_orange" name="btnPlus" type="Button"
                    value="+" onclick="Operation('+')"/>
-
         </div>
-
     </form>
 </div>
 </body>

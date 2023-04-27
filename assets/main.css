@@ -6,7 +6,6 @@
     border-radius: 40px;
 }
 
-
 #editWide{
     width:93%;
     height: 60px;
@@ -20,10 +19,12 @@
     padding-right: 5px;
     border: none;
 }
+
 .numbers {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 .number {
     border: none;
     border-radius: 40px;
@@ -35,8 +36,12 @@
     outline: none;
     box-shadow: 1px 1px 1px 1px rgba(200, 200, 200);
 }
-.number:hover { background: rgb(225, 225, 225); }
-.number:active { background: rgba(225, 225, 225, 0.5); }
+.number:hover {
+    background: rgb(225, 225, 225);
+}
+.number:active {
+    background: rgba(225, 225, 225, 0.5);
+}
 
 .operation_orange {
     border: none;
@@ -51,8 +56,12 @@
     text-align: center;
     outline: none;
 }
-.operation_orange:hover { background: rgb(245, 155, 0); }
-.operation_orange:active { background: rgba(245, 155, 0, 0.5); }
+.operation_orange:hover {
+    background: rgb(245, 155, 0);
+}
+.operation_orange:active {
+    background: rgba(245, 155, 0, 0.5);
+}
 
 .operation {
     border: none;
@@ -64,10 +73,13 @@
     text-align: center;
     outline: none;
     box-shadow: 1px 1px 1px 1px rgba(200, 200, 200);
-
 }
-.operation:hover { background: rgb(225, 225, 225); }
-.operation:active { background: rgba(225, 225, 225, 0.5); }
+.operation:hover {
+    background: rgb(225, 225, 225);
+}
+.operation:active {
+    background: rgba(225, 225, 225, 0.5);
+}
 
 #icon {
     background-image: url(delete.png);
@@ -75,10 +87,12 @@
     background-repeat: no-repeat;
     background-position: 8px 9px;
 }
+
 #decimal {
     font-weight: bold;
     font-size: 25px;
 }
+
 #wide{
     font-size: 25px;
 }
