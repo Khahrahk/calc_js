@@ -57,5 +57,5 @@
         </div>
     </form>
 </div>
-</body>
 <script src="/assets/main.js"></script>
+</body>
